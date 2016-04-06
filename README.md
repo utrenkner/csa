@@ -7,7 +7,7 @@ Then, to compress an individual file: `csa.sh /file/to/compress`
 Or, to recursively compress files in a directory tree: `csa_rec.sh`
 
 # Background - use with h2o webserver
-As of version 2.0, the h2o webserver includes support for serving static files pre-compressed with the gzip or brotli compression algorithm. This allows to serve maximum compressed files without the computation overhead for on-the-fly compression, which is also available in h2o.
+As of version 2.0, the [h2o webserver](https://github.com/h2o/h2o) includes support for serving static files pre-compressed with the gzip or brotli compression algorithm. This allows to serve maximum compressed files without the computation overhead for on-the-fly compression, which is also available in h2o. For further information on compression in h2o, see https://h2o.examp1e.net/configure/compress_directives.html.
 
 # Caveat
 The scripts were written with portability in mind. However, version 0.1 has only been tested on FreeBSD. Addtional tests on GNU/Linux will follow.
