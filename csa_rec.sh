@@ -16,7 +16,7 @@
 ###################################################################################################
 
 # Enter "/path/to/csa.sh" script
-csa="/home/uwe/bin/csa.sh"
+csa="/path/to/csa.sh"
 
 # Define, which files are to be compressed
 compressible="css|js|svg|htm[l]?|xml"
